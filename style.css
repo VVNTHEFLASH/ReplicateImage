@@ -1,0 +1,50 @@
+
+*{
+    font: optional;
+}
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.5;
+}
+body::before {
+    content: "";
+    background: url('assets/bgimghd1.jpg') no-repeat fixed;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.header>img{
+    float: right;
+    margin-right: 450px;
+    margin-top: 5px;
+}
+div>span {
+    font-size: 64px;
+    font-weight: bolder;
+    margin-left: 180px;
+}
+th>strong {
+    font-size: 72px;
+    float: left;
+}
+th {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ul{
+    font-weight: bold;
+    font-size: x-large;
+}
+ul>li{
+    font-weight: normal;
+    font-size: medium;
+}
+
